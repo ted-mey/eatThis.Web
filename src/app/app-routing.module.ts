@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { RecipeComponent } from './recipe/recipe.component';
+import { ListRecipesComponent } from './recipe/list-recipes/list-recipes.component';
+import { RecipeComponent } from './recipe/recipe/recipe.component';
 
 const routes: Routes = [
-  //{ path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', component: ListRecipesComponent },
   { path: 'recipe', component: RecipeComponent },
 ];
 

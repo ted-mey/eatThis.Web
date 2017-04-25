@@ -1,6 +1,8 @@
 [
   {
-    "name": "Salt sill",
+    "name": "Stekt salt sill",
+    "description": "Stekt salt sill är en klassisk rätt i svensk husmanskost.",
+    "instructions": "Blanda salt och sill. Låt ligga i i en vecka. Stek och servera med kokt potatis och löksås.",
     "ingredients": [
       {
         "name": "Salt",
@@ -11,6 +13,33 @@
         "name": "Sill",
         "amountEntity": "styck",
         "amount": 12
+      }
+    ]
+  },
+  {
+    "name": "Palt",
+    "description": "Palt är den överlägsna kroppkakan från norr. Kan även göras i andra varianter som flatpalt och blodpalt.",
+    "instructions": "Riv potatis. Blanda mjöl och salt. Blanda allt rulla till bollar. Koka tills palterna flyter upp.",
+    "ingredients": [
+      {
+        "name": "Vetemjöl",
+        "amountEntity": "dl",
+        "amount": 6
+      },
+      {
+        "name": "Kornmjöl",
+        "amountEntity": "dl",
+        "amount": 2
+      },
+      {
+        "name": "Potatis",
+        "amountEntity": "styck",
+        "amount": 8
+      },
+      {
+        "name": "Salt",
+        "amountEntity": "tsk",
+        "amount": 1
       }
     ]
   }

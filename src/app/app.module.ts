@@ -5,14 +5,16 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RecipeComponent } from './recipe/recipe.component';
+import { RecipeComponent } from './recipe/recipe/recipe.component';
 import { RecipeService } from './recipe/recipe.service';
+import { ListRecipesComponent } from './recipe/list-recipes/list-recipes.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    RecipeComponent
+    RecipeComponent,
+    ListRecipesComponent
   ],
   imports: [
     BrowserModule,
