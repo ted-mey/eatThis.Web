@@ -4,12 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { RecepieComponent } from './src/app/recepie/recepie.component';
+import { RecipeComponent } from './src/app/recipe/recipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RecepieComponent
+    RecipeComponent
   ],
   imports: [
     BrowserModule,
