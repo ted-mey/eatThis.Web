@@ -3,8 +3,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RecipeComponent } from './src/app/recipe/recipe.component';
+import { RecipeComponent } from './recipe/recipe.component';
+import { RecipeService } from './recipe/recipe.service';
+
 
 @NgModule({
   declarations: [
@@ -14,9 +17,10 @@ import { RecipeComponent } from './src/app/recipe/recipe.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [RecipeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

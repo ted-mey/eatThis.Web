@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Salt sill",
+    "ingredients": [
+      {
+        "name": "Salt",
+        "amountEntity": "nypa",
+        "amount": 3
+      },
+      {
+        "name": "Sill",
+        "amountEntity": "styck",
+        "amount": 12
+      }
+    ]
+  }
+]
