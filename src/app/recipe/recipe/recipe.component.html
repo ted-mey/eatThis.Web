@@ -1,8 +1,11 @@
-<h2>{{ recipe.name }}</h2>
-<p><em>{{ recipe.description }}</em></p>
-<ul>
-  <li *ngFor="let ingredient of recipe.ingredients">
-    <span><strong>{{ ingredient.name }}</strong>, {{ ingredient.amount }} {{ ingredient.amountEntity }}</span>
-  </li>
-</ul>
-<p>{{ recipe.instructions }}</p>
+<div *ngIf="recipe">
+  <h2>{{ recipe.name }}</h2>
+  <img src="{{ recipe.imageUrl }}" />
+  <p><em>{{ recipe.description }}</em></p>
+  <ul>
+    <li *ngFor="let ingredient of recipe.ingredients">
+      <span><strong>{{ ingredient.name }}</strong>, {{ ingredient.amount }} {{ ingredient.amountEntity }}</span>
+    </li>
+  </ul>
+  <p>{{ recipe.instructions }}</p>
+</div>

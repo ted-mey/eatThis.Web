@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { RecipeComponent } from './recipe/recipe/recipe.component';
 import { RecipeService } from './recipe/recipe.service';
 import { ListRecipesComponent } from './recipe/list-recipes/list-recipes.component';
+import { RecipeTeaserComponent } from './recipe/recipe-teaser/recipe-teaser.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     RecipeComponent,
-    ListRecipesComponent
+    ListRecipesComponent,
+    RecipeTeaserComponent
   ],
   imports: [
     BrowserModule,

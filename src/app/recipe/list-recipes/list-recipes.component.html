@@ -1,5 +1,7 @@
 <h2>Alla recept</h2>
-<div *ngFor="let recipe of recipes">
-  <hr />
-  <app-recipe [recipe]="recipe"></app-recipe>
+<div class="recipe-teasers">
+  <div *ngFor="let recipe of recipes" class="recipe">
+    <app-recipe-teaser [recipe]="recipe"></app-recipe-teaser>
+    <hr />
+  </div>
 </div>

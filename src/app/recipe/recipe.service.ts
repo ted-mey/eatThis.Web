@@ -16,9 +16,12 @@ export class RecipeService {
     return this.http.get("./static-recipes.json").map((res:any) => res.json()).catch(this.handleError);
   }
 
+  public getRecipe(recipeId: number): Observable<Recipe> {
+    return this.http.get("./static-recipes.json").map((res:any) => res.json().find(r => r.id === recipeId));
+  }
+
   private handleError (error: Response | any) {
     console.log(error);
     return Observable.throw(error);
   }
-
 }
